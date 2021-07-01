@@ -1,0 +1,135 @@
+.containerForm{
+    display: block;
+    width: 100%;
+    background-color: #f9f9f9;
+    border:  1px solid rgb(231, 231, 231);
+    border-radius: 12px;
+    padding: 0px;
+
+}
+
+.headerForm{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid lightgray;
+    border-radius: 10rem;
+}
+
+.titleForm{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(0.8vh + 0.8vw);
+    opacity: 0.8;
+    text-align: center;
+    text-transform: uppercase;
+    color:grey;
+    
+}
+
+.iconForm{
+
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: center;
+    justify-content: flex-start;
+    position: relative;
+    left: -2vw;
+    border-radius: 50px;
+    background-color: #fff;
+
+    border: 1px solid lightgray;
+}
+
+
+.contentForm{
+ 
+    display: flex;
+    width: 100%;
+    padding: 2vw;
+    line-height: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    opacity: 0.8;
+   
+}
+
+
+.form {
+    flex: 1;
+    padding-left: 3rem;
+    box-sizing: border-box;
+  }
+.form > form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.2rem;
+  }
+  .form button{  width: 100%;
+    margin-top: 1rem;
+  }
+  .description{
+    border: 1px solid #2296d4;
+    line-height: 1.1876em;
+    font-size: 1rem;
+    padding: 1rem 0.8rem;
+    min-height: 4.4rem;
+    height: 6rem!important;
+    outline: none;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+  }
+  .description + div[class="msgerror"]{ 
+    text-align: left;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.75rem;
+  }
+  .errore{ border: 1px solid #f44336;  }
+
+
+
+.inputForm{
+
+    width: 100%;
+    height: 30px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    color: gray;
+    padding: 0.4vw;
+    display: flex;
+    align-content: center;
+}
+
+.buttonArea{
+    margin-top: 1vh;
+    padding-top: 1vh;
+    text-align: right;
+    border-top: 1px solid lightgray;
+}
+
+.chekTermini{
+  position: relative;
+  left:0px;
+}
+
+.MuiOutlinedInput-root {
+  position: relative;
+  border-radius: 4px;
+  margin: 4px!important;
+}
+
+@media  screen and (max-width: 800px) and (orientation: portrait) {
+
+  .contentForm{
+    width: 100%;
+  }
+
+}

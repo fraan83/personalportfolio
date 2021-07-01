@@ -1,0 +1,78 @@
+.content{
+    display: flex;
+    width: 100%;
+  
+    background-image: url(/sfondosopra.svg);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.container{
+    margin-top: 2vh ;
+    margin-bottom: 2vh ;
+    max-width: 1366px;
+    min-height: 100%;
+
+}
+
+.title{
+    display: flex;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1rem;
+
+}
+
+.content > a{
+    color: #f39200!important;
+}
+
+ 
+.content > a:hover{
+    color: #f39200!important;
+}
+
+.textBio > h1, .textSkills > h1{
+    mix-blend-mode: difference;
+}
+
+ .textBio{
+ 
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    text-align: justify;
+   
+ }
+ .textSkills{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+   
+ }
+
+ @media screen and (max-width:800px) {
+
+    .container{
+        margin-top: 0vh ;
+        margin-bottom: 1vh ;
+        max-width: 1366px;
+        min-height: 100%;
+    }
+
+ }

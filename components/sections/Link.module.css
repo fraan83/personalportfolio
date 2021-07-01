@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+    width: 100%;
+  
+    background-image: url(/sfondosotto.svg);
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 2vh;
+    max-width: 1366px;
+    margin-bottom: 10vh;
+}
+

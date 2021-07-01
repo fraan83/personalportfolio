@@ -119,3 +119,80 @@
     flex-direction: column;
   }
 }
+
+
+.bgBlu{
+  background: rgb(26,95,131);
+  background: linear-gradient(180deg, rgba(26,95,131,1) 0%, rgba(21,105,136,1) 45%, rgba(16,129,185,1) 100%);
+}
+
+
+
+.bgBluInv{
+  background: rgb(26,95,131);
+  background: linear-gradient(0deg, rgba(26,95,131,1) 0%, rgba(21,105,136,1) 45%, rgba(16,129,185,1) 100%);
+}
+
+
+.payoffTitle{
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+ margin: 0.4rem;
+}
+.payoffSubTitle{
+
+  color: white;
+  font-size: 1.4rem;
+  display: flex;
+   flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.payoffButtons{
+  display: flex;
+   flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+
+}
+
+
+
+.sfondoSopra{
+  display: flex;
+  width: 100%;
+ 
+  background-image: url(/sfondosopra.svg);
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.sfondoSotto{
+  display: flex;
+  width: 100%;
+ 
+  background-image: url(/sfondosotto.svg);
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position-x: center;
+background-position-y: calc(100% - 20px);
+background-repeat: no-repeat;
+background-size: cover;
+}

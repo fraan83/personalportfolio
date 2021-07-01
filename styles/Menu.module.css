@@ -1,0 +1,57 @@
+
+.navbar-brand img{
+    animation: show 1.5s ease-in;
+}
+.link{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    cursor: pointer;
+    padding: 0 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.09rem;
+    font-weight: 400;
+    -webkit-transition: all 0.26s linear;
+    transition: all 0.26s linear;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.linkActive {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    color:#fa04ad;
+    text-shadow: 1px 1px 1px grey;
+}
+
+
+.link:hover{
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    color:#02bbfc;
+    text-shadow: 1px 1px 1px grey;  
+}
+
+
+
+@keyframes show{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes show2{
+    0% {opacity:0;}
+    20% {opacity:0;}
+    100% {opacity:1;}
+}
