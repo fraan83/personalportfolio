@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Home from '../components/Home';
-import Layout from '../components/Layout/Layout';
+import Layout from '../components/layout/Layout';
 import Carosello from '../components/sections/Carosello'
 import Bio from '../components/sections/Bio';
 import Link from '../components/sections/Link';
