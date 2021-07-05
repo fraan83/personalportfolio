@@ -38,7 +38,7 @@ const Home = ({ goToPage }) => {
                     </div>
                     <div className="col-md-6">
                         <div data-aos="fade-left" className="justify-content-start text-center">
-                           <Image src="/homecat.svg" width={600} height={600}></Image>
+                           <Image src="/home_design.svg" width={600} height={600}></Image>
                         </div>
 
                     </div>
