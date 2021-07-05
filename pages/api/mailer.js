@@ -9,7 +9,8 @@ export default async function sendMail(req, res) {
     auth: {
       user: 'fgreco@craon.it',
       pass: 'Cinisello4'
-    }
+    },
+    from: req.body.email
   })
 
   debugger
