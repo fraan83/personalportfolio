@@ -13,7 +13,7 @@ const Link = () => {
                     <div className="row">
                         <div className="col-md-6" style={{textAlign: 'center' }}>
                            <h2>Link utili:</h2>
-                            <ul>
+                            <ul className={classes.lista}>
                                 <li> <a href="https://github.com/fraan83" target="_blank" ><img src="/github.png" width="100" alt="GITHUB FRAAN83" />
                                         <br />
                                     Il mio profilo Github</a></li>
@@ -30,7 +30,7 @@ const Link = () => {
                  
                         <div className="col-md-6">
                             <h2>CONTATTAMI</h2>
-                            <Contattami title="Hai bisogno di una Web App?" icon="/settings.svg"/>
+                            <Contattami title="Hai bisogno di una Web App?" icon="/gmail.png"/>
 
                         </div>
                     </div>

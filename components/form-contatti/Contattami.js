@@ -6,7 +6,8 @@ import Button from "../buttons/Button";
 import { FormControlLabel, TextareaAutosize, Checkbox } from "@material-ui/core";
 import classes from "./Contattami.module.css";
 import axios from 'axios'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contattami = ({ title, subtitle, icon }) => {
  
@@ -34,7 +35,7 @@ const Contattami = ({ title, subtitle, icon }) => {
 
                 console.log('Success');
 
-                /*  toast.success('Email inviata correttamente. \n Un nostro tecnico specialista la ricontatterà al più presto.', {
+                toast.success('Email inviata correttamente. \nVerrai ricontattato al più presto.', {
                       position: "bottom-right",
                       autoClose: 5000,
                       hideProgressBar: false,
@@ -43,18 +44,18 @@ const Contattami = ({ title, subtitle, icon }) => {
                       draggable: true,
                       progress: undefined,
                   });
-                      */
-                alert('Email inviata correttamente. \n Un nostro tecnico specialista la ricontatterà al più presto.')
+                     
+              //  alert('Email inviata correttamente. \n Un nostro tecnico specialista la ricontatterà al più presto.')
                 reset();
 
             } else {
-                alert('si è verificato un errore nell\'invio della email. \nPuò scrivermi all\'indirizzo fraan83@gmail.com direttamente dalla tua casella email,\nmi scuso per il disagio.')
+                toast.error('si è verificato un errore nell\'invio della email. \nPuò scrivermi all\'indirizzo fraan83@gmail.com direttamente dalla tua casella email,\nmi scuso per il disagio.')
             }
             console.log('response', response)
 
         } catch (error) {
             console.log('errore', error)
-            alert('si è verificato un errore nell\'invio della email. \nPuò scrivermi all\'indirizzo fraan83@gmail.com direttamente dalla tua casella email,\nmi scuso per il disagio.')
+            toast.error('si è verificato un errore nell\'invio della email. \nPuò scrivermi all\'indirizzo fraan83@gmail.com direttamente dalla tua casella email,\nmi scuso per il disagio.')
 
         }
 
@@ -144,7 +145,9 @@ const Contattami = ({ title, subtitle, icon }) => {
 
                         <Button type="submit" className="btn btn-success btn-block" />
                     </div>
+
                 </form>
+                <ToastContainer />
             </div>
         </div>
     );

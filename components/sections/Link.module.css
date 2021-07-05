@@ -19,3 +19,8 @@
     margin-bottom: 10vh;
 }
 
+.lista > li{
+
+    margin: 10px auto;
+    padding: 10px
+}

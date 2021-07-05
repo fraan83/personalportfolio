@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import Button from './buttons/Button';
 import PropTypes from "prop-types";
 
-const Home = ({goToPage}) => {
+const Home = ({ goToPage }) => {
 
     useEffect(() => {
         Aos.init({
@@ -19,8 +19,8 @@ const Home = ({goToPage}) => {
     return (
         <div styles={{ height: '100%', width: '100%' }} className={classes.sfondoSotto}>
 
-            <div className="container-fluid justify-content-center" style={{marginTop: '10vh'}}>
-                <div className="row ">
+            <div className="container-fluid justify-content-center" style={{ marginTop: '2vh' }}>
+                <div className="row " data-aos="fade-right">
                     <div className="col-md-6 " aos-data="fade-up">
                         <div className={classes.payoffTitle}>
                             Ciao,
@@ -37,8 +37,8 @@ const Home = ({goToPage}) => {
 
                     </div>
                     <div className="col-md-6">
-                        <div className="justify-content-center text-center">
-                            <Image src="/home_design.svg" width={300} height={300}></Image>
+                        <div data-aos="fade-left" className="justify-content-start text-center">
+                           <Image src="/homecat.svg" width={600} height={600}></Image>
                         </div>
 
                     </div>
@@ -51,7 +51,7 @@ const Home = ({goToPage}) => {
     )
 }
 Home.propTypes = {
-    goToPage: PropTypes.func  
+    goToPage: PropTypes.func
 };
 
 export default Home
