@@ -16,7 +16,7 @@ let transporter = nodemailer.createTransport({
   debugger 
   transporter.sendMail({
     from: req.body.email,
-    to: "fraan83@gmail.com, fgreco.dev@gmail.com",
+    to: "fraan83@gmail.com",
     subject: req.body.oggetto,
     text: req.body.messaggio,
     html: `<h2> Nuovo messaggio da ${req.body.cognome + ' ' + req.body.nome}   </h2> <br>
