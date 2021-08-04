@@ -12,12 +12,14 @@ const Bio = () => {
                     <div className="row">
                         <div className="col-md-4 text-center" style={{padding: '3rem'}}>
 
-                            <img src="/fprof.jpeg" className="img-fluid" width="200px" height="200px" style={{ borderRadius: '15rem' }} alt="Francesco Greco web deisgner Developer" />
-
+                        
                             <h5 className="card-title text-light" style={{ mixBlendMode:"difference"}}>Francesco Greco</h5>
                             <p className="card-text text-light" style={{ mixBlendMode:"difference"}}> Web deisgner e Developer con esperienza nel campo dei gestionali e dei siti vetrina per PMI.</p>
-                            <a href="https://www.linkedin.com/in/francesco-greco-a2b17b31/" target="_blank" className="btn btn-primary">Visita Profilo <i aria-hidden className="fab fa-linkedin"></i></a>
-
+                           
+                            <img src="/fprof.jpeg" className="img-fluid" width="200px" height="200px" style={{ borderRadius: '15rem' }} alt="Francesco Greco web deisgner Developer" /> <br/>
+                            <br></br>
+                            <br></br>
+                            <a href="https://www.linkedin.com/in/francesco-greco-a2b17b31/" target="_blank" className="btn btn-primary">Visita Profilo <i aria-hidden className="fab fa-linkedin"></i></a> <br />
                         </div>
                         <div className="col-md-4 text-center" style={{padding: '3rem'}}>
                             <div className={classes.textBio}>
@@ -43,13 +45,13 @@ const Bio = () => {
                                     <strong>HTML5 CSS3</strong>
                                     <ProgressBar animated variant="info" now={100} />
                                     <strong>JavaScript / jQuery </strong>
-                                    <ProgressBar animated variant="info" now={80} />
+                                    <ProgressBar animated variant="info" now={70} />
                                     <strong>React.js / Next.js</strong>
-                                    <ProgressBar animated variant="info" now={80} />
+                                    <ProgressBar animated variant="info" now={70} />
                                     <strong>Angular</strong>
                                     <ProgressBar animated variant="info" now={70} />
-                                    <strong>Typescript</strong>
-                                    <ProgressBar animated variant="info" now={50} />
+                                    <strong>.Net Framework / .Net Core</strong> 
+                                    <ProgressBar animated variant="info" now={60} />
                                     <strong>mySql / SQL Server</strong>
                                     <ProgressBar animated variant="info" now={50} />
                                     <strong>Adobe Creative Suite</strong>

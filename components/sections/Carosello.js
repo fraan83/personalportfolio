@@ -38,7 +38,7 @@ const Carosello = () => {
                                     />
 
                                     <Carousel.Caption>
-                                        <a href="www.craon.it" target="_blank">
+                                        <a href="https://www.craon.it" target="_blank">
                                             <h3>Main Site CRAON SRL</h3>
                                             <p>Sito realizato per Craon Srl con Next.js</p></a>
                                     </Carousel.Caption>
