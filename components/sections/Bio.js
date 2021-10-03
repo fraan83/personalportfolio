@@ -25,13 +25,15 @@ const Bio = () => {
                             <div className={classes.textBio}>
                                 <h1 className="text-center">Bio</h1>
                                 <br />
-                                Dal 2016 collaboro con vari team di sviluppo, sia lato Backend (.Net Framework, .Net Core, SQL server), che Frontend (HTML, CSS, JavaScript, Next.JS, ReactJS).
-                                <br></br> Iscritto nella lista categorie protette al collocamento di Milano Nord.
+                                Dal 2011 collaboro con vari team di sviluppo come consulente IT, sia lato Backend (.Net Framework, .Net Core, SQL server), che Frontend (HTML, CSS, JavaScript, Next.JS, ReactJS).
+                                <br></br> 
                                 <br></br>
-
+                                    
                                 <br></br>
-                                <form method="get" action="/CV_FRANCESCOGRECO.docx">
-                                    <button className="btn btn-info btn-block">Download CV</button>
+                                <form method="get" action="/CV_FRANCESCOGRECO.docx" className="text-center">
+                                    <button className="btn btn-disabled btn-block">Download CV</button>
+                                    <br></br>
+                                    <i  style={{fontSize:"12px", margin: "0 auto"}}> Ultimo aggiornamento CV: <b> Maggio 2021 </b> </i>
                                 </form>
                             </div>
 
