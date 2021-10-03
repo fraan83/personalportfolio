@@ -31,7 +31,7 @@ const Bio = () => {
                                     
                                 <br></br>
                                 <form method="get" action="/CV_FRANCESCOGRECO.docx" className="text-center">
-                                    <button className="btn btn-disabled btn-block">Download CV</button>
+                                    <button  disabled className="btn btn-disabled btn-block">Download CV</button>
                                     <br></br>
                                     <i  style={{fontSize:"12px", margin: "0 auto"}}> Ultimo aggiornamento CV: <b> Maggio 2021 </b> </i>
                                 </form>
